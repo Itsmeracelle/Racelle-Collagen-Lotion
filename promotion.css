@@ -1,0 +1,64 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header and Promotion Section */
+header {
+    background-color: #28a745;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.promotion h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.promotion p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.promotion strong {
+    font-weight: bold;
+    color: #fff;
+}
+
+.promotion button {
+    background-color: #fff;
+    color: #28a745;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.promotion button:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .promotion h3 {
+        font-size: 24px;
+    }
+
+    .promotion p {
+        font-size: 16px;
+    }
+
+    .promotion button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

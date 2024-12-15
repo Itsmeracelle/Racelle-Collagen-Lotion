@@ -1,0 +1,61 @@
+ <style>
+        /* Basic reset for margin and padding */
+        body, h1, ul {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header (h1) styling */
+        h1 {
+            font-size: 24px;
+            color: #007BFF;
+            margin-top: 20px;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+
+        /* Styling for the unordered lists */
+        ul {
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin: 5px 0;
+            list-style-type: none;
+            background: url('checkmark.png') no-repeat left center;  /* You can replace 'checkmark.png' with a desired image */
+            padding-left: 25px;
+        }
+
+        /* Add some space at the top of the page */
+        h1:first-of-type {
+            margin-top: 0;
+        }
+        
+        /* A more elegant color for the page background */
+        body {
+            background-color: #e9ecef;
+        }
+
+        /* Adding a container to center the content */
+        .content-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
